@@ -1,6 +1,6 @@
 var listElements = document.querySelector(".contenedor");
 function fetchItems() {
-    for (let i = 1; i <= 150; i++) {
+    for (let i = 1; i <= 151; i++) {
         let request = new XMLHttpRequest();
         request.open('GET', `https://pokeapi.co/api/v2/pokemon/${i}`);
         request.responseType = 'json';
