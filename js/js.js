@@ -24,4 +24,3 @@ function fetchItems() {
         request.send();
     }
 }
-fetchItems();
