@@ -1,7 +1,11 @@
 body{
 
     background: url(../img/Pokedex_Background.png);
+    
 
+}
+.nav-link{
+    color: white;
 }
 
 .SubTitle{
