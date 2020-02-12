@@ -15,7 +15,7 @@ function fetchItems() {
             <span class="idPokemon">${response.id}.</span>
             <span class="nombre">${response.name}</span>
             <br>
-            <img src="${response.sprites['front_default']}" alt="Smiley face" height="180px" width="">
+            <button><img src="${response.sprites['front_default']}" alt="Smiley face" height="180px" width=""></button>
             <br>
             <span>Types: ${response.types.map((type) => type.type.name).join(', ')}</span>
           </div>`;
@@ -39,7 +39,7 @@ function ImprimirPokemon(urlPokemon) {
         <span class="idPokemon">${response.id}.</span>
         <span class="nombre">${response.name}</span>
         <br>
-        <img src="${response.sprites['front_default']}" alt="Smiley face" height="180px" width="">
+        <button><img src="${response.sprites['front_default']}" alt="Smiley face" height="180px" width=""></button>
         <br>
         <span>Types: ${response.types.map((type) => type.type.name).join(', ')}</span>
       </div>`;
